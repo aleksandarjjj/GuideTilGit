@@ -1,4 +1,5 @@
 # Hvordan man bruger Git
+1.
 ![ScreenShot](pics/1.png)
 ![ScreenShot](pics/2.png)
 ![ScreenShot](pics/3.png)
