@@ -10,8 +10,10 @@
    man skrive ```mkdir testRepo``` hvorved prompten vil lave en ny mappe kaldet 'testRepo'.
 ![ScreenShot](pics/2.png)
 
-3. 
+3. Da stien på Git stadig er for skrivebordet kan den nye mappe tilgås med ```cd testRepo```.
 ![ScreenShot](pics/3.png)
+
+4. 
 ![ScreenShot](pics/4.png)
 ![ScreenShot](pics/5.png)
 ![ScreenShot](pics/6.png)
