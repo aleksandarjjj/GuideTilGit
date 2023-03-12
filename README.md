@@ -55,11 +55,18 @@
 
 13. Vi benytter nu ```git commit -m "Din besked her"``` til at 'pakke' alle de filer vi gerne vil have tracke ned, så
     de er klar til at blive 'skubbet' ud eller pushet til vores remote repository. Se commitsene som en slags øjebliks-
-    billeder, hvor man altid kan gå tilbage til senere hen, hvis man vil slette fremtidige ændringer.
+    billeder, hvor man altid kan gå tilbage til senere hen, hvis man vil slette fremtidige ændringer. Med en 
+    ```git status``` ses nu, at vi har gemt de filer vi gerne ville tracke (nothing to commit, working tree clean).
 ![ScreenShot](pics/13.png)
 
-14. 
+14. Se bort fra 'remote add origin' i Git. Vi synkroniserer nu vores lokale repository med det remote ved at skrive
+    ```git push --all```. Hvis GitHub nu refreshes burde den nye '.gitkeep. fil dukke op.
 ![ScreenShot](pics/14.png)
+
+15. ```git log``` kan tilgås, så man kan se en liste over alle tidligere commits. Et commit identificeres med den såkalde
+    'hash', som er den lange kombination af bogstaver af tal som ses ud for commitet. Denne skal benyttes, hvis man ønsker
+    at gendanne tidlivere versioner af filerne eller programmet. Tryk ```q``` på keyboardet for at gå ud af 'log'-tilstanden
+    i Git.
 ![ScreenShot](pics/15.png)
 ![ScreenShot](pics/16.png)
 ![ScreenShot](pics/17.png)
