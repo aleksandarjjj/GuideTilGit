@@ -27,10 +27,15 @@
    er repositories. Inde på GitHub opretter vi et remote repository kaldet 'testRepo'.
 ![ScreenShot](pics/6.png)
 
-7. 
-
+7. Vi har nu følgende: et tomt remote repository og et tomt lokalt repository.
 ![ScreenShot](pics/7.png)
+
+8. Med kommandoen ```git remote add origin <url-for-repository>``` kan vi nu forbinde det lokale repository med et oprettede
+   inde på GitHub. Bemærk at der er lavet en stavefejl i kommandoprompten. Et repository kan have flere 'branches', og man kan se
+   hvilken en man er på ved siden af stien (understreget med rødt). Dette bliver relevant senere.
 ![ScreenShot](pics/8.png)
+
+9. 
 ![ScreenShot](pics/9.png)
 ![ScreenShot](pics/10.png)
 ![ScreenShot](pics/11.png)
