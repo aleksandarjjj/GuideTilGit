@@ -14,9 +14,16 @@
    Git opdateres, og at den nu er inde i mappen testRepo.
 ![ScreenShot](pics/3.png)
 
-4. 
+4. Git kan tracke både lokale og remote repositories, og det sker _ikke_ automatisk, at disse to forbindes. Derfor skal man
+   både oprette et 'lokalt' repository, som man så kan forbinde med et 'remote' repository på f.eks. GitHub eller lignende.
+   Da stien for Git er inde i mappen testRepo, kan vi indlede et nyt lokalt repository med kommandoen ```git init```.
+   Man kan være sikker på, at et lokalt repository er blevet oprettet ved at '.git' mappen dukker op.
 ![ScreenShot](pics/4.png)
+
+5. Mappen er normalt skjult, og man kan se den ved at ændre på følgende indstilling i kontrolpanelet.
 ![ScreenShot](pics/5.png)
+
+
 ![ScreenShot](pics/6.png)
 ![ScreenShot](pics/7.png)
 ![ScreenShot](pics/8.png)
