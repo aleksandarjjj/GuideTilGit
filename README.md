@@ -53,8 +53,12 @@
     prøve at lave en status på hvilke filer som er trackede med ```git status```, og kan se at filen er blevet tilføjet.
 ![ScreenShot](pics/12.png)
 
-13. 
+13. Vi benytter nu ```git commit -m "Din besked her"``` til at 'pakke' alle de filer vi gerne vil have tracke ned, så
+    de er klar til at blive 'skubbet' ud eller pushet til vores remote repository. Se commitsene som en slags øjebliks-
+    billeder, hvor man altid kan gå tilbage til senere hen, hvis man vil slette fremtidige ændringer.
 ![ScreenShot](pics/13.png)
+
+14. 
 ![ScreenShot](pics/14.png)
 ![ScreenShot](pics/15.png)
 ![ScreenShot](pics/16.png)
