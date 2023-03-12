@@ -104,17 +104,20 @@
     desuden commit med den besked vi har skrevet (understreget med rødt), og branchen ud for hashen.
 ![ScreenShot](pics/21.png)
 
-22. sad
-
+22. Nedenfor ses de to branches åbnet i hver sin browser for at se, hvilke filer som er tracket hvor. Som det kan ses,
+    indeholder branchen 'person2' både 'person1' og 'person2' mapperne, mens 'master' kun indeholder 'person1'. Vi vil
+    nu gerne prøve at samle disse, og pushe vores løsning over i hovedbranchen.
 ![ScreenShot](pics/22.png)
 
-23. 
+23. Vi bruger nu ```git checkout master ``` til at switche branch. Læg mærke til at mapperne i vores lokale
+    repository opdateres (da vi er på 'master' som kun tracker 'person1' mappen).
 ![ScreenShot](pics/23.png)
 
-24. 
+24. 'master' branchen merges nu med 'person2' med ```git merge person2```.
 ![ScreenShot](pics/24.png)
 
-25. 
+25. Vores remote repository kan nu opdateres og master branchen burde indeholde alle mapperne (har glemt at trykke
+    'Show code' på billedet).
 ![ScreenShot](pics/25.png)
 
 26. 
