@@ -23,8 +23,12 @@
 5. Mappen er normalt skjult, og man kan se den ved at ændre på følgende indstilling i kontrolpanelet.
 ![ScreenShot](pics/5.png)
 
-
+6. Vi har nu oprettet et lokalt repository, som vi gerne vil forbinde til et remote. Bemærk, at alle stier med en '.git' mappe
+   er repositories. Inde på GitHub opretter vi et remote repository kaldet 'testRepo'.
 ![ScreenShot](pics/6.png)
+
+7. 
+
 ![ScreenShot](pics/7.png)
 ![ScreenShot](pics/8.png)
 ![ScreenShot](pics/9.png)
