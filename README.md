@@ -48,7 +48,12 @@
     over i vores remote repository. Filen kan tilføjes med  ```>.gitkeep```. Vi burde nu have oprettet en fil
     der kan trackes med ```git add --all```.
 ![ScreenShot](pics/11.png)
+
+12. Filer man gerne vil tracke kan tilføjes enkeltvis eller som sagt med ```git add --all```. Efterfølgende kan vi
+    prøve at lave en status på hvilke filer som er trackede med ```git status```, og kan se at filen er blevet tilføjet.
 ![ScreenShot](pics/12.png)
+
+13. 
 ![ScreenShot](pics/13.png)
 ![ScreenShot](pics/14.png)
 ![ScreenShot](pics/15.png)
