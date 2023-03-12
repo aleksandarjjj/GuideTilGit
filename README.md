@@ -1,2 +1,2 @@
 # Hvordan man bruger Git
-hej
+![ScreenShot](pics/1.png)
