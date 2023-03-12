@@ -1,2 +1,2 @@
-# testRepo
+# Hvordan man bruger Git
 hej
