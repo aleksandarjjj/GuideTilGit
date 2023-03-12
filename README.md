@@ -59,7 +59,7 @@
     ```git status``` ses nu, at vi har gemt de filer vi gerne ville tracke (nothing to commit, working tree clean).
 ![ScreenShot](pics/13.png)
 
-14. Se bort fra 'remote add origin' i Git. Vi synkroniserer nu vores lokale repository med det remote ved at skrive
+14. Se bort fra 'remote add origin' i Git indtastet nedenfor. Vi synkroniserer nu vores lokale repository med det remote ved at skrive
     ```git push --all```. Hvis GitHub nu refreshes burde den nye '.gitkeep. fil dukke op.
 ![ScreenShot](pics/14.png)
 
