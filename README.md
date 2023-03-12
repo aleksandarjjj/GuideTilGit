@@ -133,7 +133,8 @@
    Du kan nu finde ud af, at oprette et lokalt samt remote repository, og synkronisere mellem disse. Desuden kan du oprette branches,
    slette dem og merge dem med hinanden. Husk at sørge for at din lokale branch er på samme udgangspunkt som din remote, da en af
    dine andre gruppemedlemmer kan have tilføjet kode i mellemtiden. Dit lokale repository kan opdateres hvis der er sket ændringer
-    med ```git pull --all```. Søg altid efter info på nettet, hvis du oplever problemer eller fejl - det meste kan findes på nettet.
+    med ```git pull --all```. Søg altid efter info på nettet, hvis du oplever problemer eller fejl - det meste kan findes på nettet!
+   Guiden er lavet uden tidligere erfaring med Git eller GitHub.
     
    Hvis gruppen ønsker at gendanne en tidligere master branch kan I bruge disse kommandoer (svar fra StackOverflow):
    https://stackoverflow.com/questions/1895059/revert-to-a-commit-by-a-sha-hash-in-git/15563149#15563149
