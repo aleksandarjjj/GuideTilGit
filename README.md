@@ -30,13 +30,17 @@
 7. Vi har nu følgende: et tomt remote repository og et tomt lokalt repository.
 ![ScreenShot](pics/7.png)
 
-8. Med kommandoen ```git remote add origin <url-for-repository>``` kan vi nu forbinde det lokale repository med et oprettede
+8. Med kommandoen ```git remote add origin <url-for-repository>``` kan vi nu forbinde vores lokale repository med et oprettede
    inde på GitHub. Bemærk at der er lavet en stavefejl i kommandoprompten. Et repository kan have flere 'branches', og man kan se
    hvilken en man er på ved siden af stien (understreget med rødt). Dette bliver relevant senere.
 ![ScreenShot](pics/8.png)
 
-9. 
+9. Med kommandoen ```git status``` kan vi se om alle filer inde i det lokale repository er trackede. Lige nu er både det remote
+   samt det lokale repository tomt.
 ![ScreenShot](pics/9.png)
+
+10. 
+
 ![ScreenShot](pics/10.png)
 ![ScreenShot](pics/11.png)
 ![ScreenShot](pics/12.png)
