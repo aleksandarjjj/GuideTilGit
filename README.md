@@ -117,11 +117,23 @@
 ![ScreenShot](pics/24.png)
 
 25. Vores remote repository kan nu opdateres og master branchen burde indeholde alle mapperne (har glemt at trykke
-    'Show code' på billedet).
+    'View code' på billedet).
 ![ScreenShot](pics/25.png)
 
-26. 
+26. Vi vil nu gerne slette den branch vi har merged, da den kun tracker den enkelte opgaveløsning, og ikke opdateres løbende.
+    Der er ingen grund til at beholde den, da vi har alt vi skal bruge på master branchen, og da vi ved næste opgave
+    bare kan lave en ny vilkårlig branch ud fra master, tilføje vores løsning, og merge den. Det er bedst at gøre dette,
+    da vi på denne måde også slipper for at løbe ind i problemer hvis man skal først skal til at opdatere den gamle, tilføje
+    sin kode og så pushe den igen. Vi sletter branchen lokalt med ```git branch -d person2```.
 ![ScreenShot](pics/26.png)
 
-27. 
+27. Branchen vil stadig være på vores remote repository, og kan slettes med ```git push origin -d person2```
 ![ScreenShot](pics/27.png)
+
+   Du kan nu finde ud af, at oprette et lokalt samt remote repository, og synkronisere mellem disse. Desuden kan du oprette branches,
+   slette dem og merge dem med hinanden. Husk at sørge for at din lokale branch er på samme udgangspunkt som din remote, da en af
+   dine andre gruppemedlemmer kan have tilføjet kode i mellemtiden. Dit lokale repository kan opdateres hvis der er sket ændringer
+    med ```git pull --all```. Søg altid efter info på nettet, hvis du oplever problemer eller fejl - det meste kan findes på nettet.
+    
+   Hvis gruppen ønsker at gendanne en tidligere master branch kan I bruge disse kommandoer (svar fra StackOverflow):
+   https://stackoverflow.com/questions/1895059/revert-to-a-commit-by-a-sha-hash-in-git/15563149#15563149
