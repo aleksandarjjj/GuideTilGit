@@ -76,15 +76,25 @@
     den kan trackes.
 ![ScreenShot](pics/16.png)
 
-17. 
-
+17. Vi går ind i den nye mappe med ```cd person1```. Vi opretter en fil med ```>.gitkeep``` og går nu tilbage til vores
+    'testRepo' mappe med ```cd -```. En status vil nu smide en besked om, at vi har en mappe med en eller flere filer, der
+    ikke er blevet tilføjet.
 ![ScreenShot](pics/17.png)
 
-18.
+18. Vi tilføjer nu undermappen og den trackede fil med ```git add --all```, ```git commit -m "First Commit"``` og
+    ```git push --all```.
 ![ScreenShot](pics/18.png)
+
+19. 
 ![ScreenShot](pics/19.png)
+
+20. 
 ![ScreenShot](pics/20.png)
+
+21. 
 ![ScreenShot](pics/21.png)
+
+22. 
 ![ScreenShot](pics/22.png)
 ![ScreenShot](pics/23.png)
 ![ScreenShot](pics/24.png)
