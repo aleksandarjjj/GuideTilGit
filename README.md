@@ -82,10 +82,16 @@
 ![ScreenShot](pics/17.png)
 
 18. Vi tilføjer nu undermappen og den trackede fil med ```git add --all```, ```git commit -m "First Commit"``` og
-    ```git push --all```.
+    ```git push --all```. Hvis GitHub refreshes kan vi nu se, at vores lokale repository er blevet 'pushet' til vores
+    remote repository og at mappen nu kan tilgås der.
 ![ScreenShot](pics/18.png)
 
-19. 
+19. Hvis man er flere personer, som gerne vil pushe sin opgaveløsning, er det ikke smart, at alle konstant opdaterer
+    'hoved'-branchen. Hovedbranchen skal helst bestå af færdige opgaver med en mappe for hvert gruppemedlem, og dennes
+    endelige løsning her for ellers kan det blive rodet, hvis løsninger haves i forskellige branches (forgreninger) med
+    udgangspunkt i main- eller master-branchen. Derfor kan vi oprette en ny branch med ```git branch person2```. Branchen
+    tilgås med ```git checkout person2```, og denne skal tracke en ny mappe vi har oprettet (med en .gitkeep fil i).
+    Fra tidligere ved vi, at vi kan se hvilken branch vi er i ud fra parantesen ved siden af stien i kommandoprompten.
 ![ScreenShot](pics/19.png)
 
 20. 
