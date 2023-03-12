@@ -68,8 +68,19 @@
     at gendanne tidlivere versioner af filerne eller programmet. Tryk ```q``` på keyboardet for at gå ud af 'log'-tilstanden
     i Git.
 ![ScreenShot](pics/15.png)
+
+16. Vi vil nu gerne lave en ny mappe for en person, der kan tilføje sine filer eller sin løsning til en opgave.
+    Vi sørger for at Git-kommandoprompten er på den rigtige sti, og opretter en mappe med ```mkdir person1```.
+    Hvis vi nu prøver at lave en status kan vi se, at den siger 'nothing to commit' selvom mappen er tilføjet.
+    Der er igen fordi, at Git tracker filer og _ikke_ mapper! Vi skal derfor oprette en fil i mappen for, at
+    den kan trackes.
 ![ScreenShot](pics/16.png)
+
+17. 
+
 ![ScreenShot](pics/17.png)
+
+18.
 ![ScreenShot](pics/18.png)
 ![ScreenShot](pics/19.png)
 ![ScreenShot](pics/20.png)
