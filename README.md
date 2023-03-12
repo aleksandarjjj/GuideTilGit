@@ -35,13 +35,18 @@
    hvilken en man er på ved siden af stien (understreget med rødt). Dette bliver relevant senere.
 ![ScreenShot](pics/8.png)
 
-9. Med kommandoen ```git status``` kan vi se om alle filer inde i det lokale repository er trackede. Lige nu er både det remote
+9. Med kommandoen ```git status``` kan vi se om alle filer inde i det lokale repository er trackede eller om der
+   mangler nogle fra det remote repository, hvis vores lokale ikke er up-to-date. Lige nu er både det remote
    samt det lokale repository tomt.
 ![ScreenShot](pics/9.png)
 
-10. 
-
+10. Vi vil nu gerne prøve at tilføje noget. ```git add --all``` benyttes til at filøje filer. Hvis vi prøver at benytte
+    kommandoen kan vi se, at intet filføjes, hvis vi bruger ```git add --all```, da det lokale repo som sagt er tomt.
 ![ScreenShot](pics/10.png)
+
+11. Vi opretter nu en tom fil (typen og om den indeholder noget er irrelevant), som vi gerne vil tracke og pushe
+    over i vores remote repository. Filen kan tilføjes med  ```>.gitkeep```. Vi burde nu have oprettet en fil
+    der kan trackes med ```git add --all```.
 ![ScreenShot](pics/11.png)
 ![ScreenShot](pics/12.png)
 ![ScreenShot](pics/13.png)
