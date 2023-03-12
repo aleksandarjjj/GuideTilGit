@@ -94,16 +94,31 @@
     Fra tidligere ved vi, at vi kan se hvilken branch vi er i ud fra parantesen ved siden af stien i kommandoprompten.
 ![ScreenShot](pics/19.png)
 
-20. 
+20. Vi tilføjer nu 'person2' med ```git add --all```, ```git commit -m "On branch 'person2'"``` og
+    ```git push --all```. Hvis GitHub refreshes kan vi nu se, at der _ikke_ er blevet tilføjet nogle filer til 'master'-
+    branchen.
 ![ScreenShot](pics/20.png)
 
-21. 
+21. Vores remote repository burde nu opdateres til at indeholde to branches: master og person2. Hver af disse kan tilgås
+    ved at vælge branchen og mapperne/filerne kan ses ved at trykke 'Show Code', hvis de ikke dukker op. Loggen viser
+    desuden commit med den besked vi har skrevet (understreget med rødt), og branchen ud for hashen.
 ![ScreenShot](pics/21.png)
 
-22. 
+22. sad
+
 ![ScreenShot](pics/22.png)
+
+23. 
 ![ScreenShot](pics/23.png)
+
+24. 
 ![ScreenShot](pics/24.png)
+
+25. 
 ![ScreenShot](pics/25.png)
+
+26. 
 ![ScreenShot](pics/26.png)
+
+27. 
 ![ScreenShot](pics/27.png)
