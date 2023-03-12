@@ -1,6 +1,11 @@
 # Hvordan man bruger Git
-1.
+
+1.Ved at benytte 'Git Bash here...' åbnes en kommandoprompt, der ser ud som følgende:
 ![ScreenShot](pics/1.png)
+
+
+
+
 ![ScreenShot](pics/2.png)
 ![ScreenShot](pics/3.png)
 ![ScreenShot](pics/4.png)
